@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.resultInput {
+  width: 72.5%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(196, 192, 192);
+  border: 3px solid rgba(3, 3, 252, 0.993);
+  color: rgb(57, 4, 252);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.numBtn {
+  width: 23%;
+  height: 50px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: rgb(130, 231, 238);
+  font-weight: 900;
+}
+.numBtn:hover {
+  width: 23%;
+  height: 50px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: rgb(3, 233, 250);
+  font-weight: 900;
+  border: 2px solid rgb(0, 0, 0);
+}
+.operatorBtn {
+  width: 25%;
+  height: 50px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: rgb(130, 150, 238);
+  font-weight: 900;
+}
+.operatorBtn:hover {
+  width: 25%;
+  height: 50px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: rgb(63, 95, 238);
+  font-weight: 900;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.heading {
+  text-align: center;
+  color: rgb(169, 173, 169);
+  margin-bottom: 10px;
+  font-family: Script MT;
+}
+
+.text {
+  font-size: 100px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.input {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  width: 170px;
+  margin-left: 605px;
+  font-size: 50px;
+}
+
+.button {
+  padding: 15px;
+  margin-left: 620px;
+  text-align: center;
+  width: 150px;
+  margin-top: 60px;
+}
+
+.cardText {
+  font-size: 50px;
+  text-align: center;
+}
